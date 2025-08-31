@@ -1,0 +1,92 @@
+.trend-block{
+  flex: 1 1 39%;
+  padding: 20px;
+  box-sizing: border-box;
+  overflow-y: auto;
+  justify-content: center;
+  align-items: center;
+}
+
+.trend-header{
+  font-size: 45px;
+  font-weight: 500;
+  text-align: center;
+  margin-top: 50px;
+  margin-bottom: 15px auto;
+  position: sticky;
+  text-decoration: underline gold;
+  white-space: nowrap;
+  cursor: pointer;
+}
+
+.trend-block-grid{
+  display: flex;
+  flex-wrap: wrap;
+  flex: 0 0 270px;
+  gap: 10px;
+}
+
+.trend-grid{
+  background-color: white;
+  display: flex;
+  flex-direction: column;
+  width: 270px;
+  position: relative;
+  margin: 10px;
+  transition: all 0.3s;
+  cursor: pointer;
+}
+
+.trend-grid:hover{
+  border-right: 10px solid gold;
+  border-bottom: 10px solid gold;
+}
+
+
+.trend-pic{
+  margin-top: 50px;
+  width: 100%;
+  height: 50%;
+  display: block;
+  object-fit: cover;
+  margin: 0;
+}
+
+.info-grid{
+  display: flex;
+  flex: 1;
+  width: 100%;
+  margin-left: 10px;
+  object-position: top;
+}
+
+.trend-title{
+  font-weight: 500;
+  font-size: 12px;
+  text-align: left;
+  text-wrap: nowrap;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  width: 145px;
+  color: rgb(169, 47, 47);
+  object-position: top;
+}
+
+.trend-description{
+  font-size: 25px;
+  font-family: serif;
+  text-align: left;
+  object-position: top;
+  overflow-wrap: break-word;
+  margin-bottom: 50px;
+  margin-top: 5px;
+}
+
+.time{
+  position: absolute;
+  bottom: 30px;
+  left: 10px;
+  font-size: 14px;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  color: gray;
+}
